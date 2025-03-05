@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Carro</title>
+</head>
+<body>
+    <h2>Cadastro de Carro</h2>
+    <form id="carForm">
+        <label>Marca: <input type="text" id="marca"></label><br><br>
+        <label>Modelo: <input type="text" id="modelo"></label><br><br>
+        <label>Ano: <input type="number" id="ano"></label><br><br>
+        <label>Cor: <input type="text" id="cor"></label><br><br>
+        <label>Quilometragem: <input type="number" id="kmRodados"></label><br><br>
+        <label>Valor FIPE: <input type="number" id="valorFipe"></label><br><br>
+        <button type="button" onclick="calcularCarro()">Calcular</button>
+    </form>
+
+    <h3>Resultados:</h3>
+    <p id="resultado"></p>
+
+</body>
+</html>
+<script src="script2.js"></script>
